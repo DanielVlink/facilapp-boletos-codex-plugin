@@ -1,0 +1,20 @@
+{
+  "name": "facilapp-boletos",
+  "interface": {
+    "displayName": "FacilApp Boletos"
+  },
+  "plugins": [
+    {
+      "name": "facilapp-boletos",
+      "source": {
+        "source": "local",
+        "path": "./plugins/facilapp-boletos"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
