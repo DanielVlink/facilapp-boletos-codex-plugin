@@ -1,6 +1,6 @@
 {
   "name": "facilapp-boletos",
-  "version": "0.1.0+codex.20260912080623",
+  "version": "0.1.0+codex.20260912153026",
   "description": "Integra a API FacilApp Boletos ao Codex por ferramentas MCP.",
   "author": {
     "name": "FacilApp"
