@@ -1,0 +1,24 @@
+{
+  "name": "facilapp-boletos",
+  "version": "0.1.0",
+  "description": "Integra a API FacilApp Boletos ao Codex por ferramentas MCP.",
+  "author": { "name": "FacilApp" },
+  "repository": "https://github.com/DanielVlink/facilapp-boletos-codex-plugin",
+  "license": "MIT",
+  "keywords": ["facilapp", "boletos", "cobranca", "mcp", "openapi"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "FacilApp Boletos",
+    "shortDescription": "Emita e consulte boletos pela API FacilApp.",
+    "longDescription": "Conecta o Codex à API FacilApp Boletos para autenticação, emissão, consulta e acesso aos documentos PDF, XML e HTML.",
+    "developerName": "FacilApp",
+    "category": "Productivity",
+    "capabilities": ["Autenticação Bearer", "Emissão de boletos", "PDF e XML", "OpenAPI"],
+    "brandColor": "#59651f",
+    "composerIcon": "./assets/facilapp.ico",
+    "logo": "./assets/facilapp.png",
+    "logoDark": "./assets/facilapp.png",
+    "defaultPrompt": ["Verifique o status da API FacilApp Boletos", "Consulte os boletos emitidos", "Emita um boleto pela FacilApp"]
+  },
+  "mcpServers": "./.mcp.json"
+}

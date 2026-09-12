@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "facilapp-boletos": {
+      "command": "python",
+      "args": ["./server/facilapp_boletos_mcp.py"],
+      "env": { "FACILAPP_BOLETOS_URL": "http://127.0.0.1:4040" }
+    }
+  }
+}
